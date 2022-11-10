@@ -21,8 +21,6 @@ app.use('/auth', authRoutes);
 
 const PORT = process.env.PORT || 5000;
 
-console.log('checking');
-
 mongoose
   .connect(
     'mongodb+srv://alihussnain:alihussnain@memories.r8kf9uf.mongodb.net/crud',
